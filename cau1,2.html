@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Câu 1,2</title>
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <!-- Câu 1 -->
+    <h2>Tính tổng số nguyên tố trong khoảng a đến b</h2>
+    <label for="a">Nhập số a: </label>
+    <input type="text" id="a" min="1" required />
+    <label for="b">Nhập số b (lớn hơn a): </label>
+    <input type="text" id="b" min="2" required />
+    <button onclick="calculatePrimeSum()">Tính tổng</button>
+    <div id="result"></div>
+    <!-- Câu 2 -->
+    <h2>In tam giác</h2>
+    <label for="sideLength">Nhập số cạnh:</label>
+    <input type="text" id="sideLength" min="1" required />
+    <button onclick="printTriangle()">In tam giác</button>
+    <div id="triangle"></div>
+  </body>
+</html>
